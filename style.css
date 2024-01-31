@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("Assets/Netflix\ Background.jpg");
+    height: 70vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.main.box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.75;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    max-width: 60vw;
+    height: 100px;
+}
+
+nav span img {
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.content {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 75%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 1px;
+    padding: 32px;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.content> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.content> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.section1 {
+    height: 8px;
+    background-color: rgb(49, 47, 47);
+}
+
+.btn-red1 {
+    background-color: red;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.btncontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.text {
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .btncontent {
+        flex-direction: column;
+    }
+
+    .content {
+        padding: 16px;
+    }
+}
+
+.btn-red2 {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 6px 15px;
+    border-radius: 4px;
+    border: 1px red;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.input {
+    background-color: rgb(25, 25, 25, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    border-radius: 1px white solid;
+    box-shadow: none;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .first {
+        flex-wrap: wrap;
+    }
+}
+
+.text1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    position: relative;
+}
+
+.img1 img {
+    position: relative;
+    z-index: 10;
+}
+
+.video1 {
+    position: absolute;
+    height: 273px;
+    top: 89px;
+    right: 0px;
+    left: 79px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+
+    .first .text1,
+    .first .img1 {
+        flex-direction: column;
+        max-width: 900px;
+    }
+}
+
+div .text2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+span.s1 {
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span.s2 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.section2 {
+    height: 8px;
+    background-color: rgb(49, 47, 47);
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+@media screen and (max-width:1300px) {
+
+    .second {
+        flex-wrap: wrap;
+    }
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+span.ss1 {
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span.ss2 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.section3 {
+    height: 8px;
+    background-color: rgb(49, 47, 47);
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+@media screen and (max-width:1300px) {
+
+    .third {
+        flex-wrap: wrap;
+    }
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+div.text3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span.st1 {
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span.st2 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.img3 img {
+    position: relative;
+    z-index: 10;
+}
+
+.img3 {
+    position: relative;
+}
+
+.video3 {
+    position: absolute;
+    height: 228px;
+    top: 43px;
+    right: 0px;
+    left: 108px;
+}
+
+.section4 {
+    height: 8px;
+    background-color: rgb(49, 47, 47);
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+@media screen and (max-width:1300px) {
+
+    .fourth {
+        flex-wrap: wrap;
+    }
+}
+
+.box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+div.text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span.sf1 {
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span.sf2 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.section5 {
+    height: 8px;
+    background-color: rgb(49, 47, 47);
+}
+
+.feq {
+    background-color: black;
+    color: white;
+    padding: 35px;
+
+
+}
+
+.feq h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.feqbox:hover {
+    background-color: rgb(91, 91, 91);
+}
+
+.feqbox {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 41, 41);
+    padding: 25px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+
+
+}
+
+.reinfo>span {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 26px;
+
+}
+
+.reinfo {
+    margin: 40px;
+}
+
+footer {
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 34px;
+    text-decoration: none;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+footer>.Question {
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .footer {
+        display: gird;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 28px;
+
+    }
+
+    @media screen and (max-width:1300px) {
+        .first {
+            flex-wrap: wrap;
+        }
+
+        .img2 {
+            width: 305px;
+
+        }
+
+        .video1 {
+            width: 305px;
+        }
+
+        .content> :first-child {
+
+            font-size: 32px;
+
+        }
+
+        .content> :nth-child(2) {
+
+            font-size: 18px;
+
+        }
+
+        .content> :nth-child(3) {
+
+            font-size: 16px;
+
+        }
+
+        span.s1 {
+
+            font-size: 32px;
+
+        }
+
+        span.s2 {
+
+            font-size: 18px;
+        }
+
+        span.ss1 {
+
+            font-size: 32px;
+
+        }
+
+        span.ss2 {
+
+            font-size: 18px;
+        }
+
+        span .st1 {
+            font-size: 32px;
+        }
+
+        span.st2 {
+            font-size: 18px;
+        }
+
+        span.sf1 {
+            font-size: 32px;
+        }
+
+        span.sf2 {
+            font-size: 18px;
+        }
+
+        .feq h2 {
+            font-size: 32px;
+
+        }
+
+        .f-item {
+            align-items: center;
+        }
+        .video1 {
+            width: 445px;
+        }
+        
+    }
+}
+
+.f-item {
+    display: grid;
+}
